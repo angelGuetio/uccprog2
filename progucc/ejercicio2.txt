@@ -1,0 +1,15 @@
+contenido 
+
+actividad # 2: fromacion para estudiar programacion 
+inicio 
+
+paso 1: calvin debe formase en en matematicas y algoritmia
+paso 2: debe estudiar dos horas matematicas
+paso 3: calvin debe practicar 1 hora lo aprendido en matematica.
+paso 4: calvin debe estudair 1 horas algoritmia
+paso 5: calvin debe practicar 1 hora lo aprendido en algoritmia
+paso 6: calvin aprobo ambas materias
+paso 7: calvin puede estudiar promgramacion 
+paso 8: calvin puede ver a las 4 de la terde hombres de negro en Cartoon Newoork 
+
+fin

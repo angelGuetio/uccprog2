@@ -1,0 +1,115 @@
+Microsoft Windows [Versión 10.0.18363.720]
+(c) 2019 Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\Familia>d:
+
+D:\>dir
+ El volumen de la unidad D es Respaldo
+ El número de serie del volumen es: 06DC-B14F
+
+ Directorio de D:\
+
+30/09/2020  10:37 a. m.            22.119 2306883728.pdf
+26/09/2020  06:36 p. m.    <DIR>          algoritmos - copia
+03/06/2020  09:01 p. m.           632.722 ARBOL GENEOLOGICO CAMILA.docx
+27/04/2020  10:17 a. m.         1.135.555 ceduka abuela luisa.docx
+19/09/2020  06:35 p. m.                12 cls
+18/05/2020  03:06 p. m.            53.947 COMPROBANTE 30823.pdf
+26/12/2019  01:44 p. m.    <DIR>          FOTOS VERO}
+19/09/2020  06:27 p. m.                 0 git
+04/10/2020  03:29 p. m.    <DIR>          herramientas computacionales
+18/05/2020  03:06 p. m.            14.542 ISAIAS  GUETIO CHOCUE.PDF
+27/04/2020  10:14 a. m.    <DIR>          Ivan
+10/09/2020  10:20 p. m.    <DIR>          Java
+27/04/2020  10:13 a. m.    <DIR>          Madre Trabajo
+22/07/2020  06:44 p. m.    <DIR>          Madre Trabajoss
+11/03/2020  02:02 p. m.            13.409 Maria Camila Quintero Guetio cuadernos.docx
+05/09/2020  04:24 p. m.       204.669.951 OpenJDK14U-jdk_x64_windows_openj9_14.0.2_12_openj9-0.21.0 (1).zip
+24/02/2020  09:12 p. m.    <DIR>          OSCAR GUETIO
+10/09/2020  10:57 p. m.    <DIR>          PRACTICA2
+26/09/2020  01:57 p. m.    <DIR>          PRACTICA2 - copia
+03/09/2020  08:48 p. m.    <DIR>          prog2
+30/07/2020  11:49 a. m.    <DIR>          Program Files
+04/10/2020  03:01 p. m.    <DIR>          pruebas
+30/07/2020  11:49 a. m.    <DIR>          WindowsApps
+               9 archivos    206.542.257 bytes
+              14 dirs  33.211.232.256 bytes libres
+
+D:\>cd herramientas computacionales
+
+D:\herramientas computacionales>git init
+Initialized empty Git repository in D:/herramientas computacionales/.git/
+
+D:\herramientas computacionales>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        M1_entrenamiento/
+        Nueva carpeta/
+        algoritmos.zip
+        progucc/
+        uccprog2/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\herramientas computacionales>git add .
+
+D:\herramientas computacionales>git commit -m "pruebas"
+[master (root-commit) 5eede72] pruebas
+ 38 files changed, 1135 insertions(+)
+ create mode 100644 M1_entrenamiento/Ejercicio 2 03.10.2020.psc
+ create mode 100644 M1_entrenamiento/Ejercicio 3.psc
+ create mode 100644 M1_entrenamiento/Ejercicio 4.psc
+ create mode 100644 M1_entrenamiento/Ejercicio 5.psc
+ create mode 100644 M1_entrenamiento/Ejercicio 6.psc
+ create mode 100644 M1_entrenamiento/Ejercicio 7.psc
+ create mode 100644 M1_entrenamiento/Ejercicio 8.psc
+ create mode 100644 M1_entrenamiento/Ejercicio en clase pseudocodigo.psc
+ create mode 100644 M1_entrenamiento/M1-entrenamiento.psc
+ create mode 100644 Nueva carpeta/Ejercicio 2 03.10.2020.psc
+ create mode 100644 Nueva carpeta/Ejercicio 3.psc
+ create mode 100644 Nueva carpeta/Ejercicio 4.psc
+ create mode 100644 Nueva carpeta/Ejercicio 5.psc
+ create mode 100644 Nueva carpeta/Ejercicio 6.psc
+ create mode 100644 Nueva carpeta/Ejercicio 7.psc
+ create mode 100644 Nueva carpeta/Ejercicio 8.psc
+ create mode 100644 Nueva carpeta/Ejercicio en clase pseudocodigo.psc
+ create mode 100644 Nueva carpeta/M1-entrenamiento.psc
+ create mode 100644 Nueva carpeta/algoritmos.zip
+ create mode 100644 Nueva carpeta/como vincular un repositorio remoto.docx
+ create mode 100644 "Nueva carpeta/compilaci\303\263n de todos los comandos ejecutados.txt"
+ create mode 100644 Nueva carpeta/ejercicio1.txt
+ create mode 100644 Nueva carpeta/ejercicio1_huellaoriginal.txt
+ create mode 100644 Nueva carpeta/ejercicio2.txt
+ create mode 100644 Nueva carpeta/ejercicio2_huellaoriginal.txt
+ create mode 100644 algoritmos.zip
+ create mode 100644 progucc/como vincular un repositorio remoto.docx
+ create mode 100644 "progucc/compilaci\303\263n de todos los comandos ejecutados.txt"
+ create mode 100644 progucc/ejercicio1.txt
+ create mode 100644 progucc/ejercicio1_huellaoriginal.txt
+ create mode 100644 progucc/ejercicio2.txt
+ create mode 100644 progucc/ejercicio2_huellaoriginal.txt
+ create mode 100644 progucc/~$mo vincular un repositorio remoto.docx
+ create mode 100644 "uccprog2/compilaci\303\263n de todos los comandos ejecutados.txt"
+ create mode 100644 uccprog2/ejercicio1.txt
+ create mode 100644 uccprog2/ejercicio1_huellaoriginal.txt
+ create mode 100644 uccprog2/ejercicio2.txt
+ create mode 100644 uccprog2/ejercicio2_huellaoriginal.txt
+
+D:\herramientas computacionales>git remote add origin https://github.com/angelGuetio/uccprog2.git
+
+D:\herramientas computacionales>git push origin master --force
+Enumerating objects: 23, done.
+Counting objects: 100% (23/23), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (23/23), done.
+Writing objects: 100% (23/23), 1.00 MiB | 149.00 KiB/s, done.
+Total 23 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/angelGuetio/uccprog2.git
+ + c455a2c...5eede72 master -> master (forced update)
+
+D:\herramientas computacionales>

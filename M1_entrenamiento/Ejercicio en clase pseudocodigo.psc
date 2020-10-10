@@ -9,13 +9,13 @@ Proceso Ejercicio_en_clase
 	b <- 4.5;
 	c <- 4.2;
 	
-	m <- 10 * p;
+	m <- lo * p;
 	lo <- p + m;
 	p <- m + lo;
 	
 	a <- a / 3;
 	b <- b * 2 / a;
-	c <- c + a - a - b;
+	c <- c + a - a * b;
 	
 	
 	// visualización de las operaciones realizadas.

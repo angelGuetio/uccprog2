@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class whileEjercicio03 {
 	public static void main(String[] args) {
@@ -13,25 +14,33 @@ public class whileEjercicio03 {
 		System.out.println("");
 		
 		
-		int iNumero = 22;
-		int digito=0;
+		
+			Scanner leer = new Scanner(System.in);  //leer
+			
+		     int contador,primo,numero;
+
+		     System.out.print("Ingresa un numero: ");
+		     numero = leer.nextInt();
+
+		     contador = 0;
+
+		     for(primo = 1; primo <= numero; primo++)
+		     {
+		         if((numero % primo) == 0)
+		         {
+		             contador++;
+		         }
+		     }
+
+		     if(contador <= 2)
+		     {
+		         System.out.println(numero+ " si es numero primo");
+		     }else{
+		         System.out.println("El numero no es primo");
+		     }
 		
 		
-		
-		
-		int iCantidad = 0;
-		int iTemp = iNumero;
-				
-		while (iTemp>0){
-		  iTemp = iTemp/10;
-		  if(iTemp>0) {
-			  iTemp=digito;
-			  }
-		  iCantidad++;
-		}
-				
-		
-		System.out.println(+ iTemp);
+
 	}
 
 }
